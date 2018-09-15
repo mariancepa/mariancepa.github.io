@@ -256,7 +256,8 @@ footer {
 /* ---------------------------------------------------------------------------------------------------------- */
 
 
-@media all (min-width: 320px) and (max-width: 480px) {
+/*@media only screen and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2) {*/
+@media only screen (min-width: 320px) and (max-width: 480px) {
 
     h1 {
         letter-spacing: 2px;

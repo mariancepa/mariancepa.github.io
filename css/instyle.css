@@ -96,21 +96,9 @@ h2 {
 }
 
 #instagram {
-    /*color: #fd9426 !important;*/
-
-    /*background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
-
     background: linear-gradient(to right, #f09433 0%, #bc1888 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    /*background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );*/
-
 }
 
 #instagram:hover {
@@ -120,12 +108,16 @@ h2 {
     
     -webkit-border-image: 
       -webkit-gradient(linear, 0 0, 100% 0, from(#f09433), to(#bc1888)) 1 100%;
+
     -webkit-border-image: 
       -webkit-linear-gradient(left, #f09433, #bc1888) 1 100%;
+
     -moz-border-image:
       -moz-linear-gradient(left, #f09433, #bc1888) 1 100%; 
+
     -o-border-image:
       -o-linear-gradient(left, #f09433, #bc1888) 1 100%;
+      
     border-image:
       linear-gradient(to left, #f09433, #bc1888) 1 100%;     
 }

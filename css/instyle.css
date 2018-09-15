@@ -114,8 +114,25 @@ h2 {
 }
 
 #instagram:hover {
-    border-bottom: 1px solid #fecb2e;
+    border-bottom: 1px solid;
     padding-bottom: 2px;
+
+    
+    /*border-width: 3px 3px 3px 0;*/
+    
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 100% 0, from(#f09433), to(#bc1888)) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(left, #f09433, #bc1888) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(left, #f09433, #bc1888) 1 100%; 
+    -o-border-image:
+      -o-linear-gradient(left, #f09433, #bc1888) 1 100%;
+    border-image:
+      linear-gradient(to left, #f09433, #bc1888) 1 100%;     
+
+
+
 }
 
 #twitter {

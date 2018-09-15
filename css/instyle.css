@@ -102,10 +102,10 @@ h2 {
 }
 
 #instagram:hover {    
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid;
     padding-bottom: 2px;
 
-    border-image: linear-gradient(to right, #0099CC 0%, #F27280 100%);
+    border-image: linear-gradient(to right, #f09433 0%, #bc1888 100%);
 }
 
 #twitter {

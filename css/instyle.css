@@ -102,7 +102,10 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
 
-    background: #f09433; 
+    background: linear-gradient(to right, #f09433 0%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
@@ -116,11 +119,11 @@ h2 {
 }
 
 #twitter {
-    color: #55acee !important;
+    color: #147ACA !important;
 }
 
 #twitter:hover {
-    border-bottom: 1px solid #55acee;
+    border-bottom: 1px solid #147ACA;
     padding-bottom: 2px;
 }
 

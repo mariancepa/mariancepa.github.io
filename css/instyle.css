@@ -256,10 +256,9 @@ footer {
 /* ---------------------------------------------------------------------------------------------------------- */
 
 
-/*@media only screen and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2) {*/
-   /* and (min-device-width : 375px) */
-    
-@media only screen and (max-device-width : 667px) {
+/* and (-webkit-min-device-pixel-ratio: 2) */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 720px) {
 
     .cv-cover {
         letter-spacing: 1.5px;

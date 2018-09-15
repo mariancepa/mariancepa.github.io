@@ -65,10 +65,10 @@ h2 {
 }
 
 #social a {
-    font-family: 'Raleway', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: 'Raleway', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-weight: normal;
     text-align: center;
-    font-size: 1.1em; 
+    font-size: 1.2em; 
     margin-bottom: 60px;
     color: #777;
     text-decoration: none;
@@ -283,7 +283,6 @@ footer {
         line-height: 1em;
     }
 
-
     #social li {
         display: block;
         margin-left: 0px;
@@ -295,13 +294,8 @@ footer {
     }
 
     #social a {
-        font-family: 'Raleway', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: lighter;
-        text-align: center;
+        font-weight: normal;
         font-size: 1.1em; 
-        margin-bottom: 60px;
-        color: #777;
-        text-decoration: none;
     }
 
 

@@ -51,9 +51,6 @@ h2 {
 
 #social {
     margin-top: 40px;
-}
-
-#social {
     text-align: center;
     margin: 0 auto;
 }
@@ -287,32 +284,20 @@ footer {
     }
 
     #social {
-        margin-top: 40px;
-    }
-
-    #social {
-        text-align: center;
-        margin: 0 auto;
+/*        text-align: center;
+        margin: 0 auto;*/
     }
 
     #social li {
-        /*display: inline;*/
-        margin-left: 50px;
+        display: block;
+
     }
 
     #social li:first-child {
         margin-left: 0;
     }
 
-    #social a {
-        font-family: 'Raleway', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: lighter;
-        text-align: center;
-        font-size: 1.2em; 
-        margin-bottom: 60px;
-        color: #777;
-        text-decoration: none;
-    }
+
 
 }
 

@@ -66,9 +66,9 @@ h2 {
 
 #social a {
     font-family: 'Raleway', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     text-align: center;
-    font-size: 1.2em; 
+    font-size: 1.1em; 
     margin-bottom: 60px;
     color: #777;
     text-decoration: none;
@@ -256,7 +256,7 @@ footer {
 /* ---------------------------------------------------------------------------------------------------------- */
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2) {
 
     h1 {
         letter-spacing: 2px;
@@ -279,24 +279,30 @@ footer {
 
     .cv-cover {
         letter-spacing: 1.5px;
-        font-size: 2em; 
+        font-size: 1.8em; 
         line-height: 1em;
     }
 
-    #social {
-/*        text-align: center;
-        margin: 0 auto;*/
-    }
 
     #social li {
         display: block;
-
+        margin-left: 0px;
+        margin-bottom: 20px;
     }
 
     #social li:first-child {
-        margin-left: 0;
+        margin-left: 0px;
     }
 
+    #social a {
+        font-family: 'Raleway', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 1.1em; 
+        margin-bottom: 60px;
+        color: #777;
+        text-decoration: none;
+    }
 
 
 }

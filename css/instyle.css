@@ -130,7 +130,7 @@ h2 {
     text-transform: uppercase;
     position: relative;
     display: block;
-    width: 1200px;
+    width: 80%;
     height: 400px;
     margin: 0 auto;
     margin-top: 80px;
@@ -258,4 +258,9 @@ footer {
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
-
+/*@media only screen and (max-width: 600px) {
+    
+    .cv {
+        
+    }
+}*/

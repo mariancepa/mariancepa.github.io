@@ -117,8 +117,7 @@ h2 {
     border-bottom: 1px solid;
     padding-bottom: 2px;
 
-    
-    /*border-width: 3px 3px 3px 0;*/
+    border-width: 3px 3px 3px 0;
     
     -webkit-border-image: 
       -webkit-gradient(linear, 0 0, 100% 0, from(#f09433), to(#bc1888)) 1 100%;
@@ -130,9 +129,6 @@ h2 {
       -o-linear-gradient(left, #f09433, #bc1888) 1 100%;
     border-image:
       linear-gradient(to left, #f09433, #bc1888) 1 100%;     
-
-
-
 }
 
 #twitter {
